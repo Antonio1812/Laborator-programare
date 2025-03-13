@@ -11,7 +11,6 @@ public class Form{
 
     public Form(){
         this.color="white";
-        this.counter++;
     }
 
     public static int getCounter() {
