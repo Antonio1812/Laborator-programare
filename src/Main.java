@@ -20,6 +20,6 @@ public class Main {
         Triangle triangle3=new Triangle(1.1F, 2.0F, "brown");
         System.out.println(triangle3.equals(triangle2));
 
-        System.out.println(forma.getter());
+        System.out.println("Numarul de instante: " + forma.getter());
     }
 }
