@@ -8,6 +8,7 @@ public class Circle extends Form{
     public Circle(float radius,String color){
         super(color);
         this.radius=radius;
+        counter++;
     }
 
     public float getArea(){

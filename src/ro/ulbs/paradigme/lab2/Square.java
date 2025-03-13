@@ -8,6 +8,7 @@ public class Square extends Form {
     public Square(float side,String color){
         super(color);
         this.side=side;
+        counter++;
     }
 
     public float getArea(){

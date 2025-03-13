@@ -19,5 +19,7 @@ public class Main {
         System.out.println(triangle2.equals(triunghi));
         Triangle triangle3=new Triangle(1.1F, 2.0F, "brown");
         System.out.println(triangle3.equals(triangle2));
+
+        System.out.println(forma.getter());
     }
 }

@@ -3,6 +3,7 @@ package ro.ulbs.paradigme.lab2;
 public class Form{
     private String color;
     float area;
+    static int counter = 0;
 
     public Form(String color) {
         this.color = color;
@@ -10,6 +11,11 @@ public class Form{
 
     public Form(){
         this.color="white";
+        this.counter++;
+    }
+
+    public static int getCounter() {
+        return counter;
     }
 
     public void setColor() {
@@ -27,5 +33,9 @@ public class Form{
 
     public String toString(){
         return "This Form has the color "+getColor();
+    }
+
+    public int getter(){
+        return counter;
     }
 }

@@ -10,6 +10,7 @@ public class Triangle extends Form{
         super(color);
         this.base=base;
         this.height=height;
+        counter++;
     }
 
     public boolean equals(Object obj){
